@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .bg-svg-pattern {
+    background-image: url('data/bg3.svg');
+  }
+}
+@layer base {
+  .bg-login {
+    background-image: url('data/login.svg');
+  }
+}
